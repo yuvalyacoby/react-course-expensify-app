@@ -9,6 +9,7 @@ import 'react-dates/lib/css/_datepicker.css';
 import { addExpense, removeExpense, editExpense } from './actions/expenses.js';
 import { setTextFilter, sortByDate, sortByAmount, setStartDate, setEndDate } from './actions/filters';
 import getVisibleExpenses from './selectors/expenses.js';
+import './firebase/firebase';
 
 const store = configureStore();
 
